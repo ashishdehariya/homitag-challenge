@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Abstract\3kwjhdac.u3v~" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HomitagChallenge.DataAccessLayer\HomitagChallenge.DataAccessLayer.csproj" />
+  </ItemGroup>
+
+</Project>

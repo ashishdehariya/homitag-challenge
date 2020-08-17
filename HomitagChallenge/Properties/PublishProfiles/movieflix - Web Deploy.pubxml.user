@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA7/E7G6x/PEWX/E26jPVz8wAAAAACAAAAAAAQZgAAAAEAACAAAABxaxOVCdhNu9SmKytlqcGi+hKQ6oIFmGSVDO/JnXkmwgAAAAAOgAAAAAIAACAAAADe7bk8q+RZYELo56wFs33dXnrnCVtIMrCKWjjIQAm8/4AAAACZ889rQ1lpeJE5ekajcp2fcjNP3zJ1tuOZJFu+L86ZGiI/NuPokK4+d4JbUISKX3JEzeAbH2fbZ+wNnghxjaEUhQ9TrrOOH/EyNtycmQYJDPW/Mypidc5ddXASH/uueCF6vQlC0rPQkaTIygv11l2thEWCr7DaZ9EpA5hgDjNIPkAAAABTB54cu/Lq+levJ540dCF0YR+2ACXy2cAcSd99ZmYAAOYhJhu0ocmBRAWgCfLvRUjz+4TjRBSbWnPEJ4nYPuj0</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="HomitagDB">
+      <Value>Server=tcp:demo-homitag-db.database.windows.net,1433%3bInitial Catalog=homitag-db%3bPersist Security Info=False%3bUser ID=ashish%3bPassword=P%40%24%24w0rd12345%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
